@@ -417,6 +417,7 @@ public class OmnivoreView extends ViewPart implements IRefreshable {
 				}
 			}
 		});
+
 		makeActions();
 
 		viewer.getTree().addMouseTrackListener(new MouseTrackAdapter() {
